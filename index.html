@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FNAF Fan Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <!-- Game screens (office, cameras, menu) would be dynamically managed here -->
+        <img id="office-view" src="assets/office.png" alt="Office" style="display: block;">
+        <div id="camera-system" style="display: none;">
+            <!-- Camera interface elements and views -->
+        </div>
+        <div id="jumpscare-screen" style="display: none;">
+            <!-- Jumpscare animation/image -->
+        </div>
+        <!-- UI elements like doors, lights, power bar -->
+        <button id="left-door-btn">Left Door</button>
+        <div id="power-level">Power: 100%</div>
+    </div>
+    
+    <script src="game.js"></script>
+</body>
+</html>
