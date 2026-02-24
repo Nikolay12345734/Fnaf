@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#game-container {
+    position: relative;
+    width: 800px; /* Example size */
+    height: 450px;
+    overflow: hidden;
+}
+
+#office-view, #camera-system, #jumpscare-screen {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/* Add styles for buttons, power bar, etc. */
